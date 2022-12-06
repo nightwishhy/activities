@@ -11,7 +11,7 @@ const MUNICIPALITY_CITIES_ARR = [
 ];
 
 // IF you outside China please make sure IS_CHINESE = false
-const IS_CHINESE = false;
+const IS_CHINESE = true;
 const CHINESE_INFO_MESSAGE = (yearLength, year) =>
   `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是 ${year} 的数据`;
 const ENGLISH_INFO_MESSAGE = (yearLength, year) =>
@@ -44,10 +44,10 @@ export {
   RUN_TITLES,
 };
 
-export const AVATAR = 'https://geekpluxblog.oss-cn-hongkong.aliyuncs.com/avatar.jpg?x-oss-process=style/zip';
+export const AVATAR = 'https://avatars.githubusercontent.com/u/8764980?s=400&u=c502479764893c7637be70128fa6ba0fc13adfbb';
 export const NAVS = [
-  { text: 'Blog', link: 'https://geekplux.com/' },
-  { text: 'About', link: 'https://geekplux.com/about' },
+  { text: 'Blog', link: 'https://www.baidu.com/' },
+  { text: 'About', link: 'https://www.baidu.com/' },
 ];
 
 const nike = 'rgb(224,237,94)';
